@@ -4,6 +4,17 @@ python3 -m venv [VMname]
 source [VMname]/bin/activate
 ```
 
+
+## Create a Docker environment
+- Map the Docker port to the port used by Jupyter Notebook
+- Host Port and Docker Port must match
+```bash
+docker build -f [Dockerfile] -t [DockerImage] . 
+docker run -dit -p [HostPort]:[DockerPort] --name [Docker App] [DockerImage]
+docker exec -it [Docker App] bash 
+```
+
+
 ## Download Lab materials
 ```bash
 git clone https://github.com/Junghs21/AI-Networking.git
