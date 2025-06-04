@@ -1,11 +1,11 @@
-## Create a virtual environment
+## (Optional) Create a virtual environment
 ```bash
 python3 -m venv [VMname]
 source [VMname]/bin/activate
 ```
 
 
-## Create a Docker environment
+## (Optional) Create a Docker environment
 - Map the Docker port to the port used by Jupyter Notebook
 - Host Port and Docker Port must match
 ```bash
