@@ -23,6 +23,7 @@ cd AI-Networking/
 
 
 ##  Prepare a hands-on environment
+- If you see an HTTP time out error, you can add the `--timeout` option
 ```bash
 pip install --upgrade pip
 
